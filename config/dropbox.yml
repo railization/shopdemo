@@ -1,6 +1,8 @@
+require 'dropbox_sdk'
 app_key: "znuo55dvgq4gcc4"
 app_secret: <%= ENV["APP_SECRET"] %>
 access_token: "7mioyedmum48su1l"
 access_token_secret: <%= ENV["ACCESS_TOKEN_SECRET"] %>
 user_id: "101454770"
 access_type: "app_folder"
+DROPBOX_APP_MODE = "dropbox"
