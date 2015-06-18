@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '2.1.3'
+lock '3.4.0'
 
 set :application, 'shopdemo'
 set :repo_url, 'git@github.com:railization/shopdemo.git'
