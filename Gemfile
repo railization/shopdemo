@@ -18,6 +18,7 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem 'devise'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem "figaro"
+
 group :development do
     gem 'capistrano',         require: false
     gem 'capistrano-rvm',     require: false
