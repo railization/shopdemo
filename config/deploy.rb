@@ -1,5 +1,5 @@
 # Change these
-server '45.55.20.226', port: 3000, roles: [:web, :app, :db], primary: true
+server '45.55.20.226', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/railization/shopdemo'
 set :application,     'shopdemo'
