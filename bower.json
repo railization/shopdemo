@@ -1,0 +1,22 @@
+{
+  "name": "shopdemo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/railization/shopdemo",
+  "authors": [
+    "railization <mab@railization.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-behaviors": "PolymerElements/paper-behaviors#~1.0.3",
+    "platform": "Polymer/platform#~0.4.2",
+    "platinum-sw": "PolymerElements/platinum-sw#~1.2.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}
